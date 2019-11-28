@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flobiz Suite" duration-ms="6181" started-at="2019-11-22T08:47:10Z" finished-at="2019-11-22T08:47:16Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="6181" started-at="2019-11-22T08:47:10Z" finished-at="2019-11-22T08:47:16Z">
+      <class name="slack.tests.WorkflowTest">
+        <test-method status="PASS" signature="workflowTest(java.lang.String, java.lang.String)[pri:0, instance:slack.tests.WorkflowTest@91161c7]" name="workflowTest" duration-ms="6141" started-at="2019-11-22T14:17:10Z" data-provider="TestData" finished-at="2019-11-22T14:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[channeltest16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[renamedtest16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workflowTest -->
+      </class> <!-- slack.tests.WorkflowTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Flobiz Suite -->
+</testng-results>

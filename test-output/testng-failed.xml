@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Flobiz Suite]">
+  <test name="Regression">
+    <packages>
+      <package name="slack.tests"/>
+    </packages>
+    <classes>
+      <class name="slack.tests.BaseTest"/>
+      <class name="slack.tests.TestListener"/>
+      <class name="slack.tests.WorkflowTest"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Failed suite [Flobiz Suite] -->

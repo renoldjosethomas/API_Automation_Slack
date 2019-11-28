@@ -1,0 +1,19 @@
+{ 
+   "Channel":{  
+      "CreateChannel":"channels.create",
+      "JoinChannel": "channels.join",
+      "RenameChannel": "channels.rename",
+      "ListChannel": "channels.list?%1$s",
+      "ArchiveChannel": "channels.archive"
+   },
+
+   "Module A":{  
+      "SamplePath1": "path 1",
+	  "SamplePath2": "path 2"
+   },
+   
+   "Module B":{  
+      "SamplePath1": "path 1",
+   	  "SamplePath2": "path 2"
+   }
+}
